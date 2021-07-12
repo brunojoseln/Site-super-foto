@@ -19,7 +19,17 @@
     <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400&display=swap" rel="stylesheet">
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Quicksand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+          $('.slider').bxSlider();
+        });
+    </script>
+
 </head>
 <body>
     <header>
@@ -39,7 +49,12 @@
         <h1>Fotografias profissionais<br>
         Conheça nosso trabalho</h1>
         <div class="btn"><a href="#">Saiba mais</a></div>
-        <img src="images/fotomaior_home.png" alt="">
+        <div class="slider">
+            <img src="images/foto1.png">
+            <img src="images/foto2.png">
+            <img src="images/foto3.png"> 
+            
+        </div>
     </section>
 
     <section id="sobre">
